@@ -6,7 +6,6 @@ flex-direction: row;
 flex-wrap: wrap;
 padding: 30px;
 justify-content: space-evenly;   
-
 gap: 20px; 
 `;
 
@@ -14,13 +13,13 @@ export const RecipeContainer = styled.div`
 display: flex;
 flex-direction: column;
 padding: 5px 20px;
-
 box-shadow: 0px 3px 10px 0 #aaa;
 `;
 
 export const CoverImage = styled.img`
 height: 200px;
 width: 250px;
+object-fit: cover;  
 `;
 
 

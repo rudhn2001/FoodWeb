@@ -3,14 +3,16 @@ import styled from "styled-components";
 export const Container = styled.div`
     display: flex;
     flex-direction: column; 
+    background-color: rgba(213, 209, 209, 0.888);
+    
     `;
 export  const Header = styled.div`
     color: white;
     background-color: black;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    flex-direction: row;
     padding: 20px;
     font-size: 30px;
     font-weight: bold;
@@ -27,22 +29,23 @@ export const SearchComponent = styled.div`
     flex-direction: row;
     background-color: white;
     padding: 5px;
-    border-radius: 10px;
-    width: 30%; 
+    border-radius: 6px;
+    width: 50%;
     `;
 
 export const SearchInput = styled.input`
     border: none;
     outline: none;
-    margin-left: 10px;
-    font-size: 18px;
-    font-weight: bold;
+    color:black;
+    font-size: 15px;
+    font-weight: 500;
+    width: 150px;
     `;
 
 export const SearchIcon = styled.img`
     height: 25px;
     width: 25px;
-    margin: 15px
+    margin: 10px
     `;
 export const AppIcon = styled.img`
     height: 45px;
