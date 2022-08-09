@@ -1,25 +1,95 @@
-import logo from './logo.svg';
-import './App.css';
+
+import { Header, Container, AppIcon, AppNameComponent, SearchComponent, SearchIcon, SearchInput } from './components/headerComponent';
+import { RecipeListContainer, RecipeContainer, CoverImage, RecipeName, Ingredients, SeeMore } from './components/recipeComponents';
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <Container>
+    <Header>
+      <AppNameComponent>
+        <AppIcon src="food1.png" alt="food_icon"></AppIcon>
+        Recipe Finder Website</AppNameComponent>
+      <SearchComponent>
+        <SearchIcon src="search.png" alt="search_icon"></SearchIcon>
+        <SearchInput placeholder="Search Recipe..."></SearchInput>
+      </SearchComponent>
+    </Header>
+    <RecipeListContainer>
+      <RecipeContainer>
+        <CoverImage src="food1.png" />
+        <RecipeName>Mattar Paneer</RecipeName>
+        <Ingredients>Ingredients</Ingredients>
+        <SeeMore>See Complete Recipe</SeeMore>
+      </RecipeContainer>
+      <RecipeContainer>
+        <CoverImage src="food1.png" />
+        <RecipeName>Mattar Paneer</RecipeName>
+        <Ingredients>Ingredients</Ingredients>
+        <SeeMore>See Complete Recipe</SeeMore>
+      </RecipeContainer>
+      <RecipeContainer>
+        <CoverImage src="food1.png" />
+        <RecipeName>Mattar Paneer</RecipeName>
+        <Ingredients>Ingredients</Ingredients>
+        <SeeMore>See Complete Recipe</SeeMore>
+      </RecipeContainer>
+      <RecipeContainer>
+        <CoverImage src="food1.png" />
+        <RecipeName>Mattar Paneer</RecipeName>
+        <Ingredients>Ingredients</Ingredients>
+        <SeeMore>See Complete Recipe</SeeMore>
+      </RecipeContainer>
+      <RecipeContainer>
+        <CoverImage src="food1.png" />
+        <RecipeName>Mattar Paneer</RecipeName>
+        <Ingredients>Ingredients</Ingredients>
+        <SeeMore>See Complete Recipe</SeeMore>
+      </RecipeContainer>
+      <RecipeContainer>
+        <CoverImage src="food1.png" />
+        <RecipeName>Mattar Paneer</RecipeName>
+        <Ingredients>Ingredients</Ingredients>
+        <SeeMore>See Complete Recipe</SeeMore>
+      </RecipeContainer>
+      <RecipeContainer>
+        <CoverImage src="food1.png" />
+        <RecipeName>Mattar Paneer</RecipeName>
+        <Ingredients>Ingredients</Ingredients>
+        <SeeMore>See Complete Recipe</SeeMore>
+      </RecipeContainer>
+      <RecipeContainer>
+        <CoverImage src="food1.png" />
+        <RecipeName>Mattar Paneer</RecipeName>
+        <Ingredients>Ingredients</Ingredients>
+        <SeeMore>See Complete Recipe</SeeMore>
+      </RecipeContainer>
+      <RecipeContainer>
+        <CoverImage src="food1.png" />
+        <RecipeName>Mattar Paneer</RecipeName>
+        <Ingredients>Ingredients</Ingredients>
+        <SeeMore>See Complete Recipe</SeeMore>
+      </RecipeContainer>
+      <RecipeContainer>
+        <CoverImage src="food1.png" />
+        <RecipeName>Mattar Paneer</RecipeName>
+        <Ingredients>Ingredients</Ingredients>
+        <SeeMore>See Complete Recipe</SeeMore>
+      </RecipeContainer>
+      <RecipeContainer>
+        <CoverImage src="food1.png" />
+        <RecipeName>Mattar Paneer</RecipeName>
+        <Ingredients>Ingredients</Ingredients>
+        <SeeMore>See Complete Recipe</SeeMore>
+      </RecipeContainer>
+      <RecipeContainer>
+        <CoverImage src="food1.png" />
+        <RecipeName>Mattar Paneer</RecipeName>
+        <Ingredients>Ingredients</Ingredients>
+        <SeeMore>See Complete Recipe</SeeMore>
+      </RecipeContainer>
+    </RecipeListContainer>
+  </Container>;
 }
 
 export default App;
